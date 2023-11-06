@@ -1,0 +1,23 @@
+ul {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+li.completed {
+    background-color: black;
+    color: white;
+}
+
+li.completed button {
+    background-color: white;
+    color: black;
+}
